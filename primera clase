@@ -1,0 +1,17 @@
+package Ejercicios;
+public class PrimerasClases {
+//Variables
+  int coordX;
+  int coordY;
+//Constructor
+  public Punto(int nuevaCoordX,int unevaCoordY) {
+  coordX=nuevaCoordX;
+  coordY=nuevaCoordY;
+}
+//Métodos
+  float devuelveDistanciaOrigen(){
+  float distancia;
+  distancia=Math.sqrt(coordX*coordX+coordY+coordY); 
+return();
+  }
+}
